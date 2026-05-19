@@ -1,241 +1,194 @@
 # Cybersecurity Certifications
 
-A curated list of the most useful cybersecurity certifications, their approximate cost, and the effort required to earn them.
+A practical guide to widely recognized cybersecurity certifications and hands-on training platforms.
+
+> **Note:** Prices, renewal policies, prerequisites, bundles, and platform offerings can change over time. Always confirm current details on the official provider website.
 
 ---
 
-## 📋 Overview Table
+## 📚 Learning Options by Type
 
-| Certification | Issuing Body | Price (USD) | Effort Level | Recommended For |
+### Certifications
+
+| Certification | Provider | Approx. Cost | Level | Best For |
 |---|---|---|---|---|
-| [CompTIA Security+](#comptia-security) | CompTIA | ~$392 | ⭐⭐ Beginner | Entry-level security roles |
-| [CompTIA CySA+](#comptia-cysa) | CompTIA | ~$392 | ⭐⭐⭐ Intermediate | Security analysts |
-| [CompTIA PenTest+](#comptia-pentest) | CompTIA | ~$392 | ⭐⭐⭐ Intermediate | Penetration testers |
-| [eJPT](#ejpt) | eLearnSecurity / INE | ~$200 | ⭐⭐ Beginner | Aspiring pentesters |
-| [CWL](#cwl) | CWL | Varies | ⭐⭐ Beginner | Cyber workforce learners |
-| [TCM Security / PNPT](#tcm-security--pnpt) | TCM Security | Varies | ⭐⭐⭐ Intermediate | Practical penetration testers |
-| [THM Paths / Certs](#thm-paths--certs) | TryHackMe | Varies | ⭐⭐ Beginner | Guided hands-on learners |
-| [HTB Paths / Certs](#htb-paths--certs) | Hack The Box | Varies | ⭐⭐⭐ Intermediate | Offensive security learners |
-| [OffSec Certifications](#offsec-certifications) | OffSec | Varies | ⭐⭐⭐⭐ Advanced | Offensive security specialists |
-| [CEH](#ceh) | EC-Council | ~$1,199 | ⭐⭐⭐ Intermediate | Ethical hackers |
-| [EC-Council Certifications](#ec-council-certifications) | EC-Council | Varies | ⭐⭐⭐ Intermediate | Vendor-specific security learners |
-| [OSCP](#oscp) | Offensive Security | ~$1,499 | ⭐⭐⭐⭐⭐ Advanced | Penetration testers |
-| [CISSP](#cissp) | ISC² | ~$749 | ⭐⭐⭐⭐⭐ Expert | Security managers / architects |
-| [CISM](#cism) | ISACA | ~$760 | ⭐⭐⭐⭐ Advanced | IT security managers |
-| [CISA](#cisa) | ISACA | ~$760 | ⭐⭐⭐⭐ Advanced | IT auditors |
-| [CCSP](#ccsp) | ISC² | ~$599 | ⭐⭐⭐⭐ Advanced | Cloud security professionals |
-| [AWS Security Specialty](#aws-security-specialty) | Amazon | ~$300 | ⭐⭐⭐⭐ Advanced | Cloud/AWS security engineers |
-| [GPEN / GWAPT](#gpen--gwapt) | GIAC / SANS | ~$2,499+ | ⭐⭐⭐⭐ Advanced | Penetration testers |
+| CompTIA Security+ | CompTIA | ~$392 | Beginner | Entry-level security roles |
+| CompTIA CySA+ | CompTIA | ~$392 | Intermediate | Security analysts |
+| CompTIA PenTest+ | CompTIA | ~$392 | Intermediate | Penetration testers |
+| eJPT | INE / eLearnSecurity | ~$200 | Beginner | Aspiring pentesters |
+| PNPT | TCM Security | Varies | Intermediate | Practical penetration testers |
+| CEH | EC-Council | ~$1,199 | Intermediate | Broad offensive/security recognition |
+| OSCP | OffSec | ~$1,499 | Advanced | Practical offensive security |
+| CISSP | ISC² | ~$749 | Expert | Security architecture / leadership |
+| CISM | ISACA | ~$760 | Advanced | Security management |
+| CISA | ISACA | ~$760 | Advanced | Audit and governance |
+| CCSP | ISC² | ~$599 | Advanced | Cloud security |
+| AWS Security Specialty | Amazon | ~$300 | Advanced | AWS-focused cloud security |
+| GPEN / GWAPT | GIAC / SANS | ~$2,499+ | Advanced | Specialized offensive security |
+
+### Training Platforms and Broader Provider Paths
+
+| Platform / Provider | Type | Cost | Level | Best For |
+|---|---|---|---|---|
+| CWL | Learning path / workforce learning | Varies | Beginner | Foundational cyber learning |
+| TryHackMe (THM) | Guided training platform | Varies | Beginner | Structured beginner labs |
+| Hack The Box (HTB) | Hands-on lab platform | Varies | Intermediate | Lab-heavy offensive practice |
+| TCM Security | Training + certification provider | Varies | Intermediate | Practical pentesting preparation |
+| OffSec | Certification and lab provider | Varies | Advanced | Practical offensive-security certifications |
+| EC-Council | Certification provider | Varies | Intermediate | Broad certification catalog |
 
 ---
 
 ## 📝 Certification Details
 
 ### CompTIA Security+
-
-- **Level:** Entry-level
-- **Price:** ~$392 (exam voucher)
-- **Effort:** 40–60 hours of study; no mandatory prerequisites
-- **Valid for:** 3 years (requires continuing education or retake)
-- **Why it's useful:** Vendor-neutral baseline, widely recognized, DoD 8570 compliant. Ideal first certification for anyone entering cybersecurity.
-
----
+- **Level:** Entry-level  
+- **Price:** ~$392  
+- **Effort:** 40–60 study hours  
+- **Why it's useful:** Good starting point for broad cybersecurity fundamentals.
 
 ### CompTIA CySA+
-
-- **Level:** Intermediate
-- **Price:** ~$392 (exam voucher)
-- **Effort:** 60–100 hours; Security+ or equivalent experience recommended
-- **Valid for:** 3 years
-- **Why it's useful:** Focuses on threat detection, analysis, and response. Great for blue-team / SOC analyst roles.
-
----
+- **Level:** Intermediate  
+- **Price:** ~$392  
+- **Effort:** 60–100 study hours  
+- **Why it's useful:** Strong option for blue-team and SOC-focused roles.
 
 ### CompTIA PenTest+
-
-- **Level:** Intermediate
-- **Price:** ~$392 (exam voucher)
-- **Effort:** 60–100 hours; Security+ or equivalent experience recommended
-- **Valid for:** 3 years
-- **Why it's useful:** Covers penetration testing methodology and tools. Good stepping stone before OSCP.
-
----
+- **Level:** Intermediate  
+- **Price:** ~$392  
+- **Effort:** 60–100 study hours  
+- **Why it's useful:** Covers practical penetration testing concepts and methodology.
 
 ### eJPT
+- **Level:** Beginner  
+- **Price:** ~$200  
+- **Effort:** 30–50 study hours  
+- **Why it's useful:** Popular beginner-friendly practical pentesting certification.
 
-- **Level:** Beginner
-- **Price:** ~$200 (includes course on INE platform)
-- **Effort:** 30–50 hours; no prerequisites
-- **Valid for:** Does not expire
-- **Why it's useful:** Fully practical, hands-on exam. Best entry-level penetration testing certificate; great confidence builder before pursuing OSCP.
-
----
-
-### CWL
-
-- **Level:** Beginner
-- **Price:** Varies by program
-- **Effort:** Moderate; depends on selected pathway
-- **Valid for:** Varies
-- **Why it's useful:** Useful as a broad cyber workforce learning reference for people exploring foundational security tracks.
-
----
-
-### TCM Security / PNPT
-
-- **Level:** Intermediate
-- **Price:** Varies by bundle and exam package
-- **Effort:** Moderate to high; hands-on practice strongly recommended
-- **Valid for:** Varies by certification policy
-- **Why it's useful:** Popular practical offensive-security training and certification path with strong emphasis on real-world pentesting skills.
-
----
-
-### THM Paths / Certs
-
-- **Level:** Beginner
-- **Price:** Varies by subscription and path
-- **Effort:** Low to moderate; self-paced
-- **Valid for:** Platform/path dependent
-- **Why it's useful:** Great for guided labs, beginner progression, and hands-on exposure before attempting more formal certifications.
-
----
-
-### HTB Paths / Certs
-
-- **Level:** Intermediate
-- **Price:** Varies by academy plan and certification
-- **Effort:** Moderate to high; lab-heavy
-- **Valid for:** Platform/cert dependent
-- **Why it's useful:** Strong hands-on learning for offensive security, red team, and practical lab-based skill building.
-
----
-
-### OffSec Certifications
-
-- **Level:** Advanced
-- **Price:** Varies by certification and lab/exam bundle
-- **Effort:** High; substantial lab practice required
-- **Valid for:** Varies by certification
-- **Why it's useful:** OffSec certifications are widely respected for practical offensive-security skill validation beyond OSCP alone.
-
----
+### PNPT
+- **Level:** Intermediate  
+- **Price:** Varies  
+- **Effort:** Moderate to high; hands-on preparation recommended  
+- **Why it's useful:** Practical penetration testing path focused on realistic assessments and reporting.
 
 ### CEH
-
-- **Level:** Intermediate
-- **Price:** ~$1,199 (exam only; training courses extra)
-- **Effort:** 80–120 hours; 2 years of security experience recommended
-- **Valid for:** 3 years
-- **Why it's useful:** Recognized in enterprise environments and government contracts. Covers a broad range of offensive techniques in a structured curriculum.
-
----
-
-### EC-Council Certifications
-
-- **Level:** Beginner to Advanced
-- **Price:** Varies by certification and training path
-- **Effort:** Varies
-- **Valid for:** Varies by certification cycle
-- **Why it's useful:** EC-Council offers a broad catalog beyond CEH, covering incident response, forensics, secure coding, and other security disciplines.
-
----
+- **Level:** Intermediate  
+- **Price:** ~$1,199  
+- **Effort:** 80–120 study hours  
+- **Why it's useful:** Commonly recognized certification in some enterprise and compliance-driven environments.
 
 ### OSCP
-
-- **Level:** Advanced
-- **Price:** ~$1,499 (90-day lab access + exam)
-- **Effort:** 200–500+ hours of hands-on lab practice
-- **Valid for:** Does not expire
-- **Why it's useful:** The gold standard for penetration testing. 100% practical exam — requires compromising real machines. Highly respected by employers in offensive security.
-
----
+- **Level:** Advanced  
+- **Price:** ~$1,499  
+- **Effort:** High; extensive lab work recommended  
+- **Why it's useful:** Widely respected for practical offensive-security skill validation.
 
 ### CISSP
-
-- **Level:** Expert
-- **Price:** ~$749 (exam fee)
-- **Effort:** 200–400 hours; requires 5 years of paid work experience in ≥2 of 8 CISSP domains
-- **Valid for:** 3 years (requires CPE credits)
-- **Why it's useful:** The most recognized certification for senior security professionals. Covers all 8 security domains. Often required for CISO, security architect, and senior manager roles.
-
----
+- **Level:** Expert  
+- **Price:** ~$749  
+- **Effort:** High; typically pursued after meaningful industry experience  
+- **Why it's useful:** Broad security credential often associated with architecture and leadership roles.
 
 ### CISM
-
-- **Level:** Advanced
-- **Price:** ~$760 (exam fee; discounts for ISACA members)
-- **Effort:** 120–200 hours; 5 years of information security management experience required
-- **Valid for:** 3 years
-- **Why it's useful:** Management-focused certification. Ideal for IT security managers and those transitioning from technical to leadership roles.
-
----
+- **Level:** Advanced  
+- **Price:** ~$760  
+- **Effort:** Moderate to high  
+- **Why it's useful:** Good fit for security management and governance-focused careers.
 
 ### CISA
-
-- **Level:** Advanced
-- **Price:** ~$760 (exam fee; discounts for ISACA members)
-- **Effort:** 120–200 hours; 5 years of IS audit/control experience required
-- **Valid for:** 3 years
-- **Why it's useful:** Premier certification for IT auditors and compliance professionals. Required or preferred for many audit and risk management positions.
-
----
+- **Level:** Advanced  
+- **Price:** ~$760  
+- **Effort:** Moderate to high  
+- **Why it's useful:** Strong credential for audit, assurance, risk, and control-focused work.
 
 ### CCSP
-
-- **Level:** Advanced
-- **Price:** ~$599 (exam fee)
-- **Effort:** 120–200 hours; 5 years of IT experience (including 3 in information security and 1 in cloud security) required
-- **Valid for:** 3 years
-- **Why it's useful:** Globally recognized cloud security certification co-created by ISC² and CSA. Essential for cloud architects and engineers with a security focus.
-
----
+- **Level:** Advanced  
+- **Price:** ~$599  
+- **Effort:** Moderate to high  
+- **Why it's useful:** Useful for cloud-security-focused professionals.
 
 ### AWS Security Specialty
-
-- **Level:** Advanced
-- **Price:** ~$300 (exam fee)
-- **Effort:** 80–150 hours; AWS cloud experience strongly recommended
-- **Valid for:** 3 years
-- **Why it's useful:** Validates deep expertise in securing AWS workloads. Highly valued for cloud security roles in AWS-heavy organizations.
-
----
+- **Level:** Advanced  
+- **Price:** ~$300  
+- **Effort:** Moderate to high  
+- **Why it's useful:** Good option for people working in AWS-heavy environments.
 
 ### GPEN / GWAPT
-
-- **Level:** Advanced
-- **Price:** ~$2,499+ (typically bundled with SANS training)
-- **Effort:** 80–120 hours of SANS coursework + exam
-- **Valid for:** 4 years
-- **Why it's useful:** GIAC certifications are highly regarded in enterprise and government sectors. GPEN focuses on network penetration testing; GWAPT on web application penetration testing.
+- **Level:** Advanced  
+- **Price:** ~$2,499+  
+- **Effort:** Moderate to high  
+- **Why it's useful:** Specialized offensive-security certifications often valued in enterprise environments.
 
 ---
 
-## 🗺️ Recommended Learning Path
+## 🧪 Training Platforms and Provider Notes
 
-```
-Beginner
-  └── CompTIA Security+
-        └── eJPT / THM / CWL  (foundations + hands-on intro)
-              │
-Intermediate  ├── CompTIA CySA+  (blue team / SOC)
-              ├── CompTIA PenTest+ / CEH / TCM PNPT  (offensive)
-              └── HTB Paths / Certs  (lab-heavy practical growth)
-                    │
-Advanced            ├── OffSec Certifications / OSCP  (elite pentesting)
-                    ├── CISM / CISA  (management / audit)
-                    └── CCSP / AWS Security Specialty  (cloud)
-                          │
-Expert                    └── CISSP  (senior leadership / architect)
-```
+### CWL
+- **Type:** Workforce learning / foundational pathway  
+- **Best for:** Early-stage learners exploring cybersecurity fundamentals  
+- **Notes:** If you meant a specific CWL program, rename this entry to the exact official title.
+
+### TryHackMe (THM)
+- **Type:** Guided training platform  
+- **Best for:** Beginners who want structured labs and learning paths  
+- **Notes:** Good for building confidence before formal certification attempts.
+
+### Hack The Box (HTB)
+- **Type:** Hands-on lab platform  
+- **Best for:** Learners who want more challenge and practical lab depth  
+- **Notes:** Often used to build stronger offensive-security skills.
+
+### TCM Security
+- **Type:** Training and certification provider  
+- **Best for:** Learners interested in practical pentesting preparation  
+- **Notes:** PNPT is the best-known certification in this track.
+
+### OffSec
+- **Type:** Certification and lab provider  
+- **Best for:** Learners targeting practical offensive-security certifications  
+- **Notes:** OSCP is one of the best-known certifications from this provider.
+
+### EC-Council
+- **Type:** Certification provider  
+- **Best for:** Learners exploring a broader catalog beyond CEH  
+- **Notes:** Includes multiple tracks across offensive security, incident response, forensics, and related domains.
 
 ---
 
-## 💡 Tips
+## 🗺️ Suggested Paths by Level
 
-- **Start with Security+** if you have no prior cybersecurity certification.
-- **Use THM, CWL, and HTB** to build practical exposure before higher-stakes exams.
-- **Go for eJPT or TCM PNPT before OSCP** if you want more confidence with practical pentesting.
-- **CISSP requires work experience** — pursue it after several years in the industry.
-- **SANS/GIAC courses are excellent** but expensive; check if your employer will sponsor them.
-- Prices listed are approximate and subject to change. Always check the official vendor website for current pricing.
+### Beginner
+- CompTIA Security+
+- eJPT
+- TryHackMe
+- CWL
+
+### Intermediate
+- CompTIA CySA+
+- CompTIA PenTest+
+- PNPT
+- CEH
+- Hack The Box
+- TCM Security paths
+
+### Advanced
+- OSCP
+- OffSec certifications
+- CCSP
+- AWS Security Specialty
+- GPEN / GWAPT
+- CISM
+- CISA
+
+### Expert
+- CISSP
+
+---
+
+## 💡 Practical Tips
+
+- Start with **Security+** if you are new to cybersecurity and want a broad foundation.
+- Use **TryHackMe**, **Hack The Box**, or **TCM Security** to build practical skills alongside certification study.
+- Choose platforms and certifications based on your target role: blue team, offensive security, cloud, management, or audit.
+- Treat listed prices as approximate and time-sensitive.
+- Verify prerequisites, renewal rules, and official exam details before committing time or money.
