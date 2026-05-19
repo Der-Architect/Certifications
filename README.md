@@ -1,73 +1,209 @@
 # Certifications
 
-## Most Useful Cybersecurity Certifications and Platforms
+## Cybersecurity Certification Paths, Prices, and Effort
 
-> Prices are approximate in USD and can change depending on region, bundles, subscriptions, discounts, and exam packages.
+> Prices are approximate in USD as of May 19, 2026 and can change by region, taxes, bundles, subscriptions, discounts, and exam packages.
 
-| Certification / Platform | Provider | Best for | Approx. price | Effort needed | Notes |
+## Quick answer
+
+If you want the most useful path:
+
+- **Beginner:** TryHackMe -> ISC2 CC -> Security+
+- **Practical pentesting:** PJPT -> PNPT -> HTB CPTS -> OSCP
+- **Blue team / SOC:** Security+ -> CySA+ -> HTB CDSA
+- **Senior / leadership:** CISSP
+- **Cloud security:** AZ-500
+
+---
+
+## Detailed certification and platform list
+
+| Certification / Platform | Provider | Best for | Approx. price | Effort needed | How needed / value |
 |---|---|---|---:|---|---|
-| Certified in Cybersecurity (CC) | ISC2 | Absolute beginners | $199 | Low to medium — 1 to 2 months | Good starting point for people new to cybersecurity. |
-| Security+ | CompTIA | Entry-level cybersecurity and IT support to security transition | $404 | Medium — 2 to 3 months | One of the most recognized beginner certifications. |
-| CySA+ | CompTIA | SOC analyst, blue team, detection and response | $425 | Medium to high — 2 to 4 months | Better after Security+ or some practical analyst experience. |
-| CEH | EC-Council | General ethical hacking / HR-recognized pentest cert | Varies | Medium to high — 2 to 4 months | Well-known, but often considered less hands-on than OffSec certifications. |
-| eJPT | INE / formerly eLearnSecurity | Beginner penetration testing | Varies | Medium — 1 to 3 months | Good first practical pentesting certification. |
-| PNPT | TCM Security | Practical penetration testing and reporting | Varies | Medium to high — 2 to 4 months | Strong hands-on cert focused on real-world pentest workflow. |
-| PJPT | TCM Security | Junior pentesting | Varies | Medium — 1 to 2 months | Good stepping stone before PNPT. |
-| OSCP / OSCP+ | OffSec | Penetration testing / red team | Varies by package | High — 3 to 6+ months | Highly respected and very hands-on. |
-| OSEP | OffSec | Advanced red team / evasion / AD operations | Varies by package | Very high — 4 to 8+ months | Advanced path after OSCP-level skills. |
-| CWL certifications | Cyber Warfare Labs (CWL) | Offensive security / practical labs | Varies | Medium to high — depends on track | Useful for hands-on practice depending on the exact certification path. |
-| CDSA / CPTS / CBBH | Hack The Box (HTB) Academy | Blue team, pentest, bug bounty | Subscription + exam voucher varies | Medium to high — 2 to 6 months | Very strong practical learning paths and job-role tracks. |
-| TryHackMe paths / certificates | TryHackMe | Beginners, junior pentesters, SOC learners | Subscription varies | Low to medium — flexible self-paced | Excellent for learning and guided hands-on labs before harder certs. |
-| GSEC | GIAC / SANS | Strong security foundation | $999+ | Medium to high — 2 to 4 months | Expensive but respected in enterprise environments. |
-| CISSP | ISC2 | Senior security professionals, architects, leadership | $749 | High — 3 to 6 months | Best after real work experience. |
-| AZ-500 | Microsoft | Azure cloud security | Varies by region | Medium — 1 to 3 months | Good for cloud-focused roles in Microsoft environments. |
+| Certified in Cybersecurity (CC) | ISC2 | Absolute beginners | $199 | 1 to 2 months | **Good starter cert** if you are new and need basic credibility. |
+| Security+ | CompTIA | Entry-level cybersecurity | $404 | 2 to 3 months | **Very useful / often requested** for entry-level jobs and HR screening. |
+| CySA+ | CompTIA | SOC analyst / blue team | $425 | 2 to 4 months | **Useful** for defensive roles, less universal than Security+. |
+| CEH | EC-Council | Ethical hacking / HR recognition | Training starts around $1,699, voucher options vary | 2 to 4 months | **Sometimes needed** for HR filters, government/vendor environments, but often not the best hands-on value. |
+| PJPT | TCM Security | Junior pentesting | Around $299 | 1 to 2 months | **Very useful** as an early practical pentest cert. |
+| PNPT | TCM Security | Real-world pentesting and reporting | Around $499 | 2 to 4 months | **Highly useful** if you want practical pentest skills and client-style workflow. |
+| CPTS | Hack The Box (HTB) | Practical penetration testing | $210 exam voucher, or included with some annual plans | 3 to 6 months | **Very high value** for hands-on pentesting skills. |
+| CDSA | Hack The Box (HTB) | Defensive / SOC analyst | $210 exam voucher, or included with some annual plans | 2 to 5 months | **Very useful** for blue team learners. |
+| CBBH | Hack The Box (HTB) | Bug bounty / web | Subscription path + exam pricing varies | 2 to 4 months | **Useful** if you want web exploitation and bug bounty focus. |
+| OSCP / OSCP+ | OffSec | Penetration testing / red team | Learn One pricing varies by plan/package | 3 to 6+ months | **Very highly valued** in pentesting and red team hiring. |
+| OSEP | OffSec | Advanced red team / AD / evasion | Learn One pricing varies by plan/package | 4 to 8+ months | **Needed only for advanced roles**, not beginner friendly. |
+| CWL tracks / certifications | Cyber Warfare Labs (CWL) | Practical offensive security labs | Varies | 2 to 5 months | **Optional but useful** if you want more hands-on reps. |
+| TryHackMe learning paths / cert prep | TryHackMe | Beginners and structured learning | Subscription pricing varies | Flexible, self-paced | **Very useful** for learning, but usually less important than major cert brands on a resume. |
+| GSEC | GIAC / SANS | Strong general foundation | $999+ | 2 to 4 months | **Respected but expensive**. Better if employer pays. |
+| CISSP | ISC2 | Senior professionals, architects, managers | $749 | 3 to 6 months | **Very important** for senior roles, architecture, consulting, and leadership. |
+| AZ-500 | Microsoft | Azure cloud security | Regional pricing varies | 1 to 3 months | **Useful** if you want cloud/security engineer roles in Azure environments. |
 
-## Included providers you asked for
+---
 
-- **HTB (Hack The Box)**
-- **TCM Security**
-- **Cyber Warfare Labs (CWL)**
-- **TryHackMe**
-- **EC-Council**
-- **OffSec**
+## Detailed learning paths
 
-## Recommended path
+### 1) Beginner path
 
-### Beginner
+Best if you are starting from zero.
 
-1. TryHackMe paths
-2. ISC2 CC or Security+
-3. HTB Academy beginner tracks
+1. **TryHackMe beginner paths**
+   - Learn networking, Linux, web basics, Windows basics, and simple security concepts.
+   - **Price:** subscription-based, exact pricing varies by plan.
+   - **Effort:** 1 to 2 months part-time.
+   - **Needed?** **Highly recommended** for learning, but not usually enough alone for hiring.
 
-### Pentesting / Red Team
+2. **ISC2 CC**
+   - Good first real certification.
+   - **Price:** $199.
+   - **Effort:** 1 to 2 months.
+   - **Needed?** **Nice to have**, especially if you have no experience.
 
-1. PJPT
-2. PNPT
-3. eJPT
-4. OSCP
-5. OSEP
+3. **CompTIA Security+**
+   - Stronger and more recognized than CC for many entry-level jobs.
+   - **Price:** $404.
+   - **Effort:** 2 to 3 months.
+   - **Needed?** **Often needed** for entry-level SOC, junior analyst, and government-adjacent roles.
 
-### Blue Team / SOC
+### 2) Pentesting / Red Team path
 
-1. Security+
-2. CySA+
-3. HTB defensive tracks
-4. AZ-500 if you want cloud security
+Best if you want offensive security.
 
-### Senior / Architecture
+1. **TryHackMe offensive paths**
+   - Build the basics before harder exams.
+   - **Price:** subscription-based.
+   - **Effort:** 1 to 2 months.
+   - **Needed?** **Recommended learning**, not usually enough by itself.
 
-1. CISSP
-2. GSEC
-3. Cloud or specialized advanced certifications depending on your role
+2. **PJPT (TCM Security)**
+   - Good first practical step.
+   - **Price:** around $299.
+   - **Effort:** 1 to 2 months.
+   - **Needed?** **Useful**, especially for beginners who want practical work.
 
-## Quick advice
+3. **PNPT (TCM Security)**
+   - Strong real-world pentest flow: enumeration, exploitation, reporting, and AD.
+   - **Price:** around $499.
+   - **Effort:** 2 to 4 months.
+   - **Needed?** **Very useful**, especially for practical skills.
 
-- **Best for beginners:** TryHackMe, ISC2 CC, Security+
-- **Best practical pentest path:** PJPT -> PNPT -> OSCP
-- **Best premium practical platform:** HTB Academy
-- **Best senior cert:** CISSP
-- **Best cloud-focused cert:** AZ-500
+4. **HTB CPTS**
+   - Excellent hands-on pentesting path.
+   - **Price:** $210 exam voucher; subscription costs may apply for Academy access.
+   - **Effort:** 3 to 6 months.
+   - **Needed?** **Very high value**, especially for skill development.
 
-## Note
+5. **OSCP / OSCP+ (OffSec)**
+   - The best-known hands-on pentest cert in many hiring pipelines.
+   - **Price:** pricing depends on OffSec package / Learn One subscription.
+   - **Effort:** 3 to 6+ months.
+   - **Needed?** **Very often desired** for pentest roles, though not always mandatory.
 
-Platform-based training providers like **TryHackMe**, **HTB Academy**, and some **CWL** paths may not always be traditional certifications in the same way as **CISSP**, **Security+**, or **OSCP**, but they are still very useful for skill building and career preparation.
+6. **OSEP (OffSec)**
+   - Advanced only.
+   - **Price:** package/subscription pricing varies.
+   - **Effort:** 4 to 8+ months.
+   - **Needed?** **Only needed** for advanced red team specialization.
+
+### 3) Blue Team / SOC path
+
+Best if you want defensive security, detection, and analysis.
+
+1. **Security+**
+   - Baseline security knowledge.
+   - **Price:** $404.
+   - **Effort:** 2 to 3 months.
+   - **Needed?** **Very useful** starting point.
+
+2. **CySA+**
+   - Better for analysts than Security+.
+   - **Price:** $425.
+   - **Effort:** 2 to 4 months.
+   - **Needed?** **Useful** if targeting SOC roles.
+
+3. **HTB CDSA**
+   - Practical blue team skill validation.
+   - **Price:** $210 exam voucher; subscription costs may apply.
+   - **Effort:** 2 to 5 months.
+   - **Needed?** **Very useful** for real defensive skill-building.
+
+4. **AZ-500**
+   - Add if you want cloud security.
+   - **Price:** varies by region.
+   - **Effort:** 1 to 3 months.
+   - **Needed?** **Situationally important** in Azure-heavy organizations.
+
+### 4) Senior / Architecture / Leadership path
+
+Best if you already have experience.
+
+1. **CISSP**
+   - Major credibility cert for senior roles.
+   - **Price:** $749.
+   - **Effort:** 3 to 6 months.
+   - **Needed?** **Often very important** for architect, consultant, manager, and senior security roles.
+
+2. **GSEC**
+   - Strong but expensive foundation cert.
+   - **Price:** $999+.
+   - **Effort:** 2 to 4 months.
+   - **Needed?** **Useful but optional**, especially if employer funded.
+
+---
+
+## Provider notes you asked for
+
+### TryHackMe
+- Best for beginners.
+- Great for affordable structured learning.
+- **Needed?** Good for skills, less important than top cert brands on a CV.
+
+### TCM Security
+- Great practical path for pentesting.
+- **Best sequence:** PJPT -> PNPT
+- **Needed?** Increasingly respected, especially by practitioners.
+
+### Hack The Box (HTB)
+- Excellent practical training.
+- **Best picks:** CPTS for red team, CDSA for blue team.
+- **Needed?** Strong value for real skill, growing resume value.
+
+### EC-Council
+- Most recognized item is **CEH**.
+- **Needed?** Mostly useful when HR, compliance, or employer policy specifically asks for it.
+
+### OffSec
+- The strongest brand here for practical offensive certs.
+- **Best path:** OSCP -> OSEP
+- **Needed?** Often highly desired for pentesting jobs.
+
+### Cyber Warfare Labs (CWL)
+- Good for extra practical training.
+- **Needed?** More optional than mainstream cert tracks, but useful for hands-on learners.
+
+---
+
+## Best value recommendations
+
+### If you want a cheap and strong start
+- TryHackMe
+- ISC2 CC
+- Security+
+
+### If you want pentesting
+- PJPT
+- PNPT
+- CPTS
+- OSCP
+
+### If you want blue team
+- Security+
+- CySA+
+- CDSA
+
+### If you want senior credibility
+- CISSP
+
+---
+
+## Important note
+
+Some platforms like **TryHackMe**, **HTB Academy**, and **CWL** are partly training platforms rather than only traditional certification vendors, so the real cost can include both **subscription cost + exam voucher cost**.
