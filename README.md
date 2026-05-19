@@ -12,7 +12,13 @@ A curated list of the most useful cybersecurity certifications, their approximat
 | [CompTIA CySA+](#comptia-cysa) | CompTIA | ~$392 | ⭐⭐⭐ Intermediate | Security analysts |
 | [CompTIA PenTest+](#comptia-pentest) | CompTIA | ~$392 | ⭐⭐⭐ Intermediate | Penetration testers |
 | [eJPT](#ejpt) | eLearnSecurity / INE | ~$200 | ⭐⭐ Beginner | Aspiring pentesters |
+| [CWL](#cwl) | CWL | Varies | ⭐⭐ Beginner | Cyber workforce learners |
+| [TCM Security / PNPT](#tcm-security--pnpt) | TCM Security | Varies | ⭐⭐⭐ Intermediate | Practical penetration testers |
+| [THM Paths / Certs](#thm-paths--certs) | TryHackMe | Varies | ⭐⭐ Beginner | Guided hands-on learners |
+| [HTB Paths / Certs](#htb-paths--certs) | Hack The Box | Varies | ⭐⭐⭐ Intermediate | Offensive security learners |
+| [OffSec Certifications](#offsec-certifications) | OffSec | Varies | ⭐⭐⭐⭐ Advanced | Offensive security specialists |
 | [CEH](#ceh) | EC-Council | ~$1,199 | ⭐⭐⭐ Intermediate | Ethical hackers |
+| [EC-Council Certifications](#ec-council-certifications) | EC-Council | Varies | ⭐⭐⭐ Intermediate | Vendor-specific security learners |
 | [OSCP](#oscp) | Offensive Security | ~$1,499 | ⭐⭐⭐⭐⭐ Advanced | Penetration testers |
 | [CISSP](#cissp) | ISC² | ~$749 | ⭐⭐⭐⭐⭐ Expert | Security managers / architects |
 | [CISM](#cism) | ISACA | ~$760 | ⭐⭐⭐⭐ Advanced | IT security managers |
@@ -65,6 +71,56 @@ A curated list of the most useful cybersecurity certifications, their approximat
 
 ---
 
+### CWL
+
+- **Level:** Beginner
+- **Price:** Varies by program
+- **Effort:** Moderate; depends on selected pathway
+- **Valid for:** Varies
+- **Why it's useful:** Useful as a broad cyber workforce learning reference for people exploring foundational security tracks.
+
+---
+
+### TCM Security / PNPT
+
+- **Level:** Intermediate
+- **Price:** Varies by bundle and exam package
+- **Effort:** Moderate to high; hands-on practice strongly recommended
+- **Valid for:** Varies by certification policy
+- **Why it's useful:** Popular practical offensive-security training and certification path with strong emphasis on real-world pentesting skills.
+
+---
+
+### THM Paths / Certs
+
+- **Level:** Beginner
+- **Price:** Varies by subscription and path
+- **Effort:** Low to moderate; self-paced
+- **Valid for:** Platform/path dependent
+- **Why it's useful:** Great for guided labs, beginner progression, and hands-on exposure before attempting more formal certifications.
+
+---
+
+### HTB Paths / Certs
+
+- **Level:** Intermediate
+- **Price:** Varies by academy plan and certification
+- **Effort:** Moderate to high; lab-heavy
+- **Valid for:** Platform/cert dependent
+- **Why it's useful:** Strong hands-on learning for offensive security, red team, and practical lab-based skill building.
+
+---
+
+### OffSec Certifications
+
+- **Level:** Advanced
+- **Price:** Varies by certification and lab/exam bundle
+- **Effort:** High; substantial lab practice required
+- **Valid for:** Varies by certification
+- **Why it's useful:** OffSec certifications are widely respected for practical offensive-security skill validation beyond OSCP alone.
+
+---
+
 ### CEH
 
 - **Level:** Intermediate
@@ -72,6 +128,16 @@ A curated list of the most useful cybersecurity certifications, their approximat
 - **Effort:** 80–120 hours; 2 years of security experience recommended
 - **Valid for:** 3 years
 - **Why it's useful:** Recognized in enterprise environments and government contracts. Covers a broad range of offensive techniques in a structured curriculum.
+
+---
+
+### EC-Council Certifications
+
+- **Level:** Beginner to Advanced
+- **Price:** Varies by certification and training path
+- **Effort:** Varies
+- **Valid for:** Varies by certification cycle
+- **Why it's useful:** EC-Council offers a broad catalog beyond CEH, covering incident response, forensics, secure coding, and other security disciplines.
 
 ---
 
@@ -150,12 +216,13 @@ A curated list of the most useful cybersecurity certifications, their approximat
 ```
 Beginner
   └── CompTIA Security+
-        └── eJPT  (hands-on intro to pentesting)
+        └── eJPT / THM / CWL  (foundations + hands-on intro)
               │
 Intermediate  ├── CompTIA CySA+  (blue team / SOC)
-              └── CompTIA PenTest+ / CEH  (offensive)
+              ├── CompTIA PenTest+ / CEH / TCM PNPT  (offensive)
+              └── HTB Paths / Certs  (lab-heavy practical growth)
                     │
-Advanced            ├── OSCP  (elite pentesting)
+Advanced            ├── OffSec Certifications / OSCP  (elite pentesting)
                     ├── CISM / CISA  (management / audit)
                     └── CCSP / AWS Security Specialty  (cloud)
                           │
@@ -167,7 +234,8 @@ Expert                    └── CISSP  (senior leadership / architect)
 ## 💡 Tips
 
 - **Start with Security+** if you have no prior cybersecurity certification.
-- **Go for eJPT before OSCP** — it is much cheaper and gives you practical confidence.
+- **Use THM, CWL, and HTB** to build practical exposure before higher-stakes exams.
+- **Go for eJPT or TCM PNPT before OSCP** if you want more confidence with practical pentesting.
 - **CISSP requires work experience** — pursue it after several years in the industry.
 - **SANS/GIAC courses are excellent** but expensive; check if your employer will sponsor them.
 - Prices listed are approximate and subject to change. Always check the official vendor website for current pricing.
